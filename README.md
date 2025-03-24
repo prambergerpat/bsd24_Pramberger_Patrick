@@ -20,3 +20,6 @@ Patrick Pramberger
 ### Further Links
 
 [Exercise1](./exercise1.md)
+[Exercise2](./exercise2.md)
+[GitHub](https://github.com/prambergerpat)
+[Campus02](https://www.campus02.at)
