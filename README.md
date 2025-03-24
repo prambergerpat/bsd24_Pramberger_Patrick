@@ -19,8 +19,8 @@ Patrick Pramberger
 
 ### Further Links
 
-[Exercise1](./exercise1.md)
-[exercise2.md](./exercise2.md)
-[Github](https://github.com/prambergerpat)
-[Campus02](https://www.campus02.at)
-[exercise2_part2.md](./exercise2_part2.md)
+1. [Exercise1](./exercise1.md)
+2. [exercise2.md](./exercise2.md)
+    - [Github](https://github.com/prambergerpat)
+    - [Campus02](https://www.campus02.at)
+    - [exercise2_part2.md](./exercise2_part2.md)
