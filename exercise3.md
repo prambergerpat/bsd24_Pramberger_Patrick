@@ -23,4 +23,4 @@
 
 7. When the program is executed, intellij itself builds and compiles the project and makes a new directory called "**target**"
 
-8. 
+8. It seems to that `logger.info()` is not visible in the terminal output, `logger.error()` is visible.
