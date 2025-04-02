@@ -16,3 +16,11 @@
 3. The path for java can be displayed with the command: printenv
 
 4. After that i created the maven project in intellij. 
+
+5. Committed the changes into to `init_project` branch and merged it back to the `main` branch.
+
+6. Created class `Calculator` and added the demanded methods, such as `MainClass`.
+
+7. When the program is executed, intellij itself builds and compiles the project and makes a new directory called "**target**"
+
+8. 
