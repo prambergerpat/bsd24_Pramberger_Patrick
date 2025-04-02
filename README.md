@@ -14,6 +14,19 @@ The user can guess one character at a time. If a character is guessed which is n
 ## Contributing
 I am open for new ideas. If you would like to send me some new stuff, please send it via email.
 
+## Configuration
+You should use the template file for the logging configuration:
+`log4j2.xml.template` in directory `src/main/resources`.
+
+If you are going to use this file, the following settings have to be made:
+- log - file path (`fileName`)
+- log - level (`debug`, `info`, ...)
+- formatting of the log entries 
+- Note: if you do not want the logs in the console, you have to set <Configuration status="off">
+
+[log4j2.xml.template](./src/main/resources/log4j2.xml.template)
+
+
 ## Authors
 Patrick Pramberger
 
@@ -26,3 +39,5 @@ Patrick Pramberger
     - [Github](https://github.com/prambergerpat)
     - [Campus02](https://www.campus02.at)
     - [exercise2_part2.md](./exercise2_part2.md)
+3. Exercise3
+   - [exercise3.md](./exercise3.md)
