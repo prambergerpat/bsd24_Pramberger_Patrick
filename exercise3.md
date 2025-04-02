@@ -23,4 +23,10 @@
 
 7. When the program is executed, intellij itself builds and compiles the project and makes a new directory called "**target**"
 
-8. 
+8. It seems that `logger.info()` is not visible in the terminal output, `logger.error()` is visible.
+
+9. Added a debug massage to each method of the calculator, and for division by zero a special error message
+
+10. `log4j2.xml` was configured, had some issues with the logs in the terminal, fixed it
+
+11. 
