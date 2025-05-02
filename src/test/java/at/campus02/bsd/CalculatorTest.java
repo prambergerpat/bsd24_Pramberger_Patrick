@@ -138,4 +138,27 @@ public class CalculatorTest {
         double result = calculator.divide(25, 0.125);
         assertEquals(200, result);
     }
+
+
+
+    @DisplayName("Testing testFactorialPositiveNumber() method")
+    @Test
+    void testFactorialPositiveNumber() {
+        double result = calculator.factorial(5);
+        assertEquals(120, result);
+    }
+
+    @DisplayName("Testing testFactorialNegativeNumber() method")
+    @Test
+    void testFactorialNegativeNumber() {
+        double result = calculator.factorial(-5);
+        assertTrue(Double.isNaN(result));
+    }
+
+    @DisplayName("Testing testFactorialWithZero() method")
+    @Test
+    void testFactorialWithZero() {
+        double result = calculator.factorial(0);
+        assertEquals(1, result);
+    }
 }

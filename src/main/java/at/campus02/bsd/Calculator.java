@@ -21,12 +21,8 @@ public class Calculator {
         return number1 * number2;
     }
 
-//    public double getNumber1() {
-//        return number1;
-//    }
-//
-//    public double getNumber2() {
-//        return number2;
-//    }
+    public double factorial(double number) {
+        return 0;
+    }
 }
 
