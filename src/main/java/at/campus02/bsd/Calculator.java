@@ -22,7 +22,14 @@ public class Calculator {
     }
 
     public double factorial(double number) {
-        return 0;
+        if (number < 0) {
+            return Double.NaN;
+        } else {
+            double result = 1;
+            for (int i = 1; i <= number; i++) {
+                result *= i;
+            }
+            return result;
+        }
     }
 }
-
