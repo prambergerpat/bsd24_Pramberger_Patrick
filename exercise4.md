@@ -8,3 +8,12 @@ you implement the method itself.
 before, but suddenly after the feature was added the program has some bugs. With unit tests you are able to target 
 the bug easier.
 - Unit tests ensure (if done correctly) that your methods are working correctly!
+
+# Test Cases
+I covered four cases for each calculation type.
+
+- add: with positive, negative, decimal numbers and one being zero
+- subtract: with positive, negative, decimal numbers and one being zero
+- multiply: with positive, negative, decimal numbers and one being zero
+- division: with positive, negative, decimal numbers and the second number being zero
+

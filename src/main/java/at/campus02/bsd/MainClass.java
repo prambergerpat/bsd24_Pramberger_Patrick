@@ -6,10 +6,12 @@ public class MainClass {
         int number1 = 8;
         int number2 = 4;
 
-        System.out.println("Result add: " + Calculator.add(number1, number2));
-        System.out.println("Result subtract: " + Calculator.subtract(number1, number2));
-        System.out.println("Result multiply: " + Calculator.multiply(number1, number2));
-        System.out.println("Result division: " + Calculator.divide(number1, number2));
+        Calculator calculator = new Calculator();
+
+        System.out.println("Result add: " + calculator.add(number1, number2));
+        System.out.println("Result subtract: " + calculator.subtract(number1, number2));
+        System.out.println("Result multiply: " + calculator.multiply(number1, number2));
+        System.out.println("Result division: " + calculator.divide(number1, number2));
         System.out.println();
         System.out.println("Pramberger Patrick");
 
